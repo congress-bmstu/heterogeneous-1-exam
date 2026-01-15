@@ -6,5 +6,5 @@
 
 
 (страница 52 нигматуллин)
-#image("image\6.png")
-#image("image\7.png")
+#image("image/6.png")
+#image("image/7.png")
