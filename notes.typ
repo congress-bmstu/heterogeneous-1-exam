@@ -104,6 +104,7 @@
   set outline(
     title: none,
     indent: auto, // автоматические табуляции
+    depth: 2,
   )
   set outline.entry(
     fill: repeat([.], gap: 5pt), // многоточие после пунктов
