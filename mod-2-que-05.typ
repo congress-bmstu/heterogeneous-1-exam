@@ -7,4 +7,4 @@
 ]
 
 (страница 54 нигматуллин)
-#image("image/8.png")
+#figure(image("image/8.png"))

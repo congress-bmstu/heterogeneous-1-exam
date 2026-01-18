@@ -8,28 +8,30 @@
 
 (Из лекций взял, так как там ещё доп картинки; если без них, то можно просто подряд из Нигматулина писать)
 
-Уравнения описывающие микродвижения, осредненные пар-ры. 
+#todo[это жесть, смысл нашего расписывания билетов как раз в том чтобы не было 15 страниц каких-то рандом скринов, а в том чтобы было может и сильно меньше, но адекватного текста]
 
-#image("image/theor2.1-1.jpg")
-#image("image/theor2.1-2.jpg")
-#image("image/theor2.1-3.jpg")
+Уравнения описывающие микродвижения, осредненные пар-ры.
+
+#figure(image("image/theor2.1-1.jpg"))
+#figure(image("image/theor2.1-2.jpg"))
+#figure(image("image/theor2.1-3.jpg"))
 
 Уравнения описывающие микродвижения в гетерогенных смесях.
 
-#image("image/theor2.1-4.jpg")
-#image("image/theor2.1-5.jpg")
+#figure(image("image/theor2.1-4.jpg"))
+#figure(image("image/theor2.1-5.jpg"))
 
 Осредненные параметры.
 
-#image("image/theor2.1-6.jpg")
-#image("image/theor2.1-7.jpg")
-#image("image/theor2.1-8.jpg")
-#image("image/theor2.1-9.jpg")
-#image("image/theor2.1-10.jpg")
-#image("image/theor2.1-11.jpg")
+#figure(image("image/theor2.1-6.jpg"))
+#figure(image("image/theor2.1-7.jpg"))
+#figure(image("image/theor2.1-8.jpg"))
+#figure(image("image/theor2.1-9.jpg"))
+#figure(image("image/theor2.1-10.jpg"))
+#figure(image("image/theor2.1-11.jpg"))
 
 Теорема о среднеобъемных и среднеповерхностных величинах.
 
-#image("image/theor2.1-12.jpg")
-#image("image/theor2.1-13.jpg")
-#image("image/theor2.1-14.jpg")
+#figure(image("image/theor2.1-12.jpg"))
+#figure(image("image/theor2.1-13.jpg"))
+#figure(image("image/theor2.1-14.jpg"))
