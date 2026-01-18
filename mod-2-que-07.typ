@@ -8,3 +8,7 @@
 
 
 (Нигматулин стр 58)
+
+#image("image/theor2.7-1.PNG", width: 75%)
+#image("image/theor2.7-2.PNG", width: 75%)
+#image("image/theor2.7-3.PNG", width: 75%)
