@@ -78,7 +78,7 @@ $K(xi) (partial u_0)/(partial xi) = C(x)$ -- не зависит от $xi$.
   Введём *оператор осреднения* $angles(dot)$, который при применении
   к функции $phi(x, xi)$ равен следующему интегралу:
   $
-  angles( phi(x, xi) ) = limits(integral)_(V_"ЯП") phi(x, xi) d V(xi) underbrace(=, "в 1D") limits(integral)_0^1 phi(x, xi) d xi,
+  angles( phi(x, xi) ) = 1/abs(V_"ЯП") limits(integral)_(V_"ЯП") phi(x, xi) d V(xi) underbrace(=, "в 1D") limits(integral)_0^1 phi(x, xi) d xi,
   $
   #zero_indent[где $V_"ЯП"$ -- ячейка периодичности.]
 ]
