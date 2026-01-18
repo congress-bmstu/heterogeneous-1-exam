@@ -58,7 +58,7 @@
     )[#h(0.0em)]] // когда https://github.com/typst/typst/pull/5768 войдет в релиз, убрать это
   }
   // обнуление счетчиком рисунков таблиц и уравнений в каждой главе
-  show heading.where(level: 1): it => {
+  show heading.where(level: 2): it => {
     counter(math.equation).update(0)
     counter(figure.where(kind: image)).update(0)
     counter(figure.where(kind: table)).update(0)
@@ -68,7 +68,12 @@
   // нумерация уравнений
   // set math.equation(numbering: "(1)")
   // формат лейблов у уравнений
-  set math.equation(numbering: num => "(" + (str(counter(heading).get().at(0)) + "." + str(num)) + ")")
+  set math.equation(numbering: num => {
+    let header_nums = counter(heading).get()
+    let chap = str(header_nums.at(0))
+    let sec = str(header_nums.at(1, default: ""))
+    "(" + (chap + "." + sec + "." + str(num)) + ")"
+  })
   // автоматическое добавление номера уравнениям при ссылке на них
   // show math.equation: it => {
   //   if it.block and not it.has("label") [
