@@ -28,25 +28,25 @@
 #pagebreak()
 
 = Модуль 1
-#include "mod-1-que-01.typ"
-#include "mod-1-que-02.typ"
-#include "mod-1-que-03.typ"
-#include "mod-1-que-04.typ"
-#include "mod-1-que-05.typ"
+#include "mod-1-que-01.typ"; #pagebreak()
+#include "mod-1-que-02.typ"; #pagebreak()
+#include "mod-1-que-03.typ"; #pagebreak()
+#include "mod-1-que-04.typ"; #pagebreak()
+#include "mod-1-que-05.typ"; #pagebreak()
 
 = Модуль 2
-#include "mod-2-que-01.typ"
-#include "mod-2-que-02.typ"
-#include "mod-2-que-03.typ"
-#include "mod-2-que-04.typ"
-#include "mod-2-que-05.typ"
-#include "mod-2-que-06.typ"
-#include "mod-2-que-07.typ"
-#include "mod-2-que-08.typ"
-#include "mod-2-que-09.typ"
-#include "mod-2-que-10.typ"
-#include "mod-2-que-11.typ"
-#include "mod-2-que-12.typ"
-#include "mod-2-que-13.typ"
+#include "mod-2-que-01.typ"; #pagebreak()
+#include "mod-2-que-02.typ"; #pagebreak()
+#include "mod-2-que-03.typ"; #pagebreak()
+#include "mod-2-que-04.typ"; #pagebreak()
+#include "mod-2-que-05.typ"; #pagebreak()
+#include "mod-2-que-06.typ"; #pagebreak()
+#include "mod-2-que-07.typ"; #pagebreak()
+#include "mod-2-que-08.typ"; #pagebreak()
+#include "mod-2-que-09.typ"; #pagebreak()
+#include "mod-2-que-10.typ"; #pagebreak()
+#include "mod-2-que-11.typ"; #pagebreak()
+#include "mod-2-que-12.typ"; #pagebreak()
+#include "mod-2-que-13.typ"; #pagebreak()
 
 
