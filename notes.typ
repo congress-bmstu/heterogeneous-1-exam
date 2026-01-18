@@ -48,11 +48,16 @@
   // колхозный фикс (добавление отсупа разделам и первому абзацу внутри них)
   show heading: it => {
     let sizes = (
-      "1": 18pt,
-      "2": 14pt,
+      "1": 24pt,
+      "2": 16pt,
       "3": 14pt,
     )
-    pad(left: 1.25cm, text(size: sizes.at(str(it.level)), weight: "bold", it))
+    let alignments = (
+      "1": center,
+      "2": left,
+      "3": left,
+    )
+    pad(left: 1.25cm, align(alignments.at(str(it.level)), text(size: sizes.at(str(it.level)), weight: "bold", it)))
     par(spacing: 0.75em)[#text(
       size: 0mm,
     )[#h(0.0em)]] // когда https://github.com/typst/typst/pull/5768 войдет в релиз, убрать это
